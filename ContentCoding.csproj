@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{06F4EF43-5A71-4055-9A5B-A8397FCD2480}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ContentCoding</RootNamespace>
+    <AssemblyName>LangAnalysis_ContentCoding</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnalyzeText.cs" />
+    <Compile Include="Dictionary.cs" />
+    <Compile Include="ParseDictionary.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentCoding.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SettingsForm_ContentCoding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingsForm_ContentCoding.Designer.cs">
+      <DependentUpon>SettingsForm_ContentCoding.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingsForm_ContentCoding.resx">
+      <DependentUpon>SettingsForm_ContentCoding.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dictionaries\A._T._Panter - Invectives.dic" />
+    <None Include="Dictionaries\Absolutist Words.dic" />
+    <None Include="Dictionaries\Age Stereotypes Dictionary.dic" />
+    <None Include="Dictionaries\AgencyCommunionDict.dic" />
+    <None Include="Dictionaries\Agitation-Dejection Dictionary.dic" />
+    <None Include="Dictionaries\Analogy_Being_Dictionary.dic" />
+    <None Include="Dictionaries\Anique_Gregson - Attention Focus.dic" />
+    <None Include="Dictionaries\ArgLex.dic" />
+    <None Include="Dictionaries\Body Type Dictionary.dic" />
+    <None Include="Dictionaries\Brand Personality.dic" />
+    <None Include="Dictionaries\Concreteness - Mergenthaler Suffix.dic" />
+    <None Include="Dictionaries\Connectives.dic" />
+    <None Include="Dictionaries\Corporate Social Responsibility.dic" />
+    <None Include="Dictionaries\EmoLex092-English.dic" />
+    <None Include="Dictionaries\EmpathDefaultDictionary.dic" />
+    <None Include="Dictionaries\Encarnacion_S._Arenas - LIWC + Essam Porn Dictionary.dic" />
+    <None Include="Dictionaries\English_Prime.dic" />
+    <None Include="Dictionaries\Financial Sentiment Dictionary.dic" />
+    <None Include="Dictionaries\FinancialSentimentDictionary2018.dic" />
+    <None Include="Dictionaries\Forest Value Dictionary.dic" />
+    <None Include="Dictionaries\Global Citizen Dictionary.dic" />
+    <None Include="Dictionaries\GrantEvalDic.dic" />
+    <None Include="Dictionaries\GrievanceDictionary.dic" />
+    <None Include="Dictionaries\Harvard General Inquirer IV - FULL.dic" />
+    <None Include="Dictionaries\Hedges.dic" />
+    <None Include="Dictionaries\Hogenraad Anticipation Dictionary.dic" />
+    <None Include="Dictionaries\Hogenraad Metamorphosis Dictionary.dic" />
+    <None Include="Dictionaries\Home Perceptions Dictionary.dic" />
+    <None Include="Dictionaries\HonorDictionary.dic" />
+    <None Include="Dictionaries\Ji_Raney_Self-Transcendent_Emotion_Dictionary.dic" />
+    <None Include="Dictionaries\Laver Garry Dictionary of Policy Position.dic" />
+    <None Include="Dictionaries\LCM.dic" />
+    <None Include="Dictionaries\Lexicoder Topic Dictionary.dic" />
+    <None Include="Dictionaries\LUSI - Action-Inaction Dictionary.dic" />
+    <None Include="Dictionaries\LUSI - Disengagement Dictionary - Modified.dic" />
+    <None Include="Dictionaries\LUSI - Netspeak Dictionary.dic" />
+    <None Include="Dictionaries\LUSI - Risky Sex Dictionary.dic" />
+    <None Include="Dictionaries\mfd2.0.dic" />
+    <None Include="Dictionaries\Mindfulness Dictionary.dic" />
+    <None Include="Dictionaries\Moral Foundations Dictionary %28Fixed Formatting%29.dic" />
+    <None Include="Dictionaries\Moral Justification Dictionary.dic" />
+    <None Include="Dictionaries\MPQA_Subjectivity_Lexicon.dic" />
+    <None Include="Dictionaries\NRC_Colour.dic" />
+    <None Include="Dictionaries\Opinion_Lexicon.dic" />
+    <None Include="Dictionaries\Pain_Dictionary.dic" />
+    <None Include="Dictionaries\PANASX.dic" />
+    <None Include="Dictionaries\Personal Values Dictionary.dic" />
+    <None Include="Dictionaries\Privacy Dictionary.dic" />
+    <None Include="Dictionaries\Prorefugee Dictionary.dic" />
+    <None Include="Dictionaries\Prosocial Dictionary.dic" />
+    <None Include="Dictionaries\PsychodynamicConflict.dic" />
+    <None Include="Dictionaries\Regressive Imagery Dictionary.dic" />
+    <None Include="Dictionaries\Regulatory_Mode_Kanze_Conley_Higgins.dic" />
+    <None Include="Dictionaries\SchwartzValuesDict.dic" />
+    <None Include="Dictionaries\SDTheory Dictionary.dic" />
+    <None Include="Dictionaries\Security_Lexicon.dic" />
+    <None Include="Dictionaries\Self-Care Dictionary.dic" />
+    <None Include="Dictionaries\Situational8.dic" />
+    <None Include="Dictionaries\Social_Ties_Dictionary.dic" />
+    <None Include="Dictionaries\ValueLexiconBardi.dic" />
+    <None Include="Dictionaries\ValuesLexiconWilson.dic" />
+    <None Include="Dictionaries\Wang et al. %282016%29 - Stress Dictionary.dic" />
+    <None Include="Dictionaries\Well-being Dictionary.dic" />
+    <None Include="Dictionaries\Whirlall_Words.dic" />
+    <None Include="icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Libraries - Helpers\OutputPluginHelperObject\OutputPluginHelperLib.csproj">
+      <Project>{0c767a38-ec69-4687-879a-dccd77cbaafb}</Project>
+      <Name>OutputPluginHelperLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Libraries - Helpers\PluginContracts\PluginContracts.csproj">
+      <Project>{a786b34a-f929-47a2-a92d-4f2f474c9aa0}</Project>
+      <Name>PluginContracts</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>xcopy /y  "$(TargetPath)" "$(SolutionDir)BUTTER_Client\$(OutDir)\Plugins\"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

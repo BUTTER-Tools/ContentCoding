@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Absolutist_Words" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Absolutist Words.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="AgencyCommunionDict" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\AgencyCommunionDict.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Age_Stereotypes_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Age Stereotypes Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Agitation_Dejection_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Agitation-Dejection Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Analogy_Being_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Analogy_Being_Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Anique_Gregson___Attention_Focus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Anique_Gregson - Attention Focus.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Body_Type_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Body Type Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Brand_Personality" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Brand Personality.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Concreteness___Mergenthaler_Suffix" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Concreteness - Mergenthaler Suffix.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="English_Prime" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\English_Prime.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Forest_Value_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Forest Value Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Global_Citizen_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Global Citizen Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Harvard_General_Inquirer_IV___FULL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Harvard General Inquirer IV - FULL.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Home_Perceptions_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Home Perceptions Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Laver_Garry_Dictionary_of_Policy_Position" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Laver Garry Dictionary of Policy Position.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LCM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\LCM.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Lexicoder_Topic_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Lexicoder Topic Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Mindfulness_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Mindfulness Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Moral_Foundations_Dictionary__Fixed_Formatting_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Moral Foundations Dictionary (Fixed Formatting).dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Opinion_Lexicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Opinion_Lexicon.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="PANASX" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\PANASX.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Privacy_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Privacy Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Regressive_Imagery_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Regressive Imagery Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SDTheory_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\SDTheory Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="A__T__Panter___Invectives" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\A._T._Panter - Invectives.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Encarnacion_S__Arenas___LIWC___Essam_Porn_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Encarnacion_S._Arenas - LIWC + Essam Porn Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Security_Lexicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Security_Lexicon.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Situational8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Situational8.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Whirlall_Words" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Whirlall_Words.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Social_Ties_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Social_Ties_Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="ArgLex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\ArgLex.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Prorefugee_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Prorefugee Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="SchwartzValuesDict" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\SchwartzValuesDict.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ValueLexiconBardi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\ValueLexiconBardi.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="ValuesLexiconWilson" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\ValuesLexiconWilson.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="LUSI___Action_Inaction_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\LUSI - Action-Inaction Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LUSI___Disengagement_Dictionary___Modified" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\LUSI - Disengagement Dictionary - Modified.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LUSI___Netspeak_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\LUSI - Netspeak Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="LUSI___Risky_Sex_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\LUSI - Risky Sex Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Pain_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Pain_Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-16</value>
+  </data>
+  <data name="Well_being_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Well-being Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Self_Care_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Self-Care Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Prosocial_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Prosocial Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="mfd2_0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\mfd2.0.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Regulatory_Mode_Kanze_Conley_Higgins" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Regulatory_Mode_Kanze_Conley_Higgins.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GrantEvalDic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\GrantEvalDic.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="EmoLex092_English" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\EmoLex092-English.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="EmpathDefaultDictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\EmpathDefaultDictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="HonorDictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\HonorDictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="PsychodynamicConflict" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\PsychodynamicConflict.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="NRC_Colour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\NRC_Colour.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MPQA_Subjectivity_Lexicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\MPQA_Subjectivity_Lexicon.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Connectives" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Connectives.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Hedges" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Hedges.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Hogenraad_Anticipation_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Hogenraad Anticipation Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Hogenraad_Metamorphosis_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Hogenraad Metamorphosis Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Corporate_Social_Responsibility" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Corporate Social Responsibility.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Moral_Justification_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Moral Justification Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Wang_et_al___2016____Stress_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Wang et al. (2016) - Stress Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Personal_Values_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Personal Values Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="FinancialSentimentDictionary2018" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\FinancialSentimentDictionary2018.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Ji_Raney_Self_Transcendent_Emotion_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Ji_Raney_Self-Transcendent_Emotion_Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="GrievanceDictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\GrievanceDictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+</root>
