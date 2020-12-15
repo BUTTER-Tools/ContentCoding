@@ -310,4 +310,7 @@
   <data name="GrievanceDictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Dictionaries\GrievanceDictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Mind_Perception_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Mind Perception Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
 </root>

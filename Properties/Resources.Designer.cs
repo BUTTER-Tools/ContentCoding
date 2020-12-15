@@ -1826,6 +1826,54 @@ namespace ContentCoding.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to %
+        ///1	Experience
+        ///2	Agency
+        ///3	PatientRelatedEmotions
+        ///4	AgentRelatedEmotions
+        ///5	MindOverall
+        ///%
+        ///Feel*	5	1
+        ///Perceive*	5	1
+        ///Perception	5	1
+        ///Mood	5	1
+        ///Pain	5	1
+        ///Ache*	5	1
+        ///Agony	5	1
+        ///Discomfort	5	1
+        ///Injur*	5	1
+        ///Wound*	5	1
+        ///Miser*	5	1
+        ///Distress*	5	1
+        ///Anguish*	5	1
+        ///Anxiety	5	1
+        ///Anxious	5	1
+        ///Grief	5	1
+        ///Sad*	5	1
+        ///Devastated	5	1
+        ///Suffer*	5	1
+        ///Hurt*	5	1
+        ///Emotion*	5	1
+        ///Anger	5	1	4
+        ///Angry	5	1	4
+        ///Surprise*	5	1
+        ///Disgust*	5	1	4
+        ///Pleasure	5	1
+        ///Amuse*	5	1
+        ///Enjoy*	5	1
+        ///Gratif*	5	1
+        ///Passon*	5	1
+        ///Purpose	5	2
+        ///Plan*	5	2
+        ///Prepar [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Mind_Perception_Dictionary {
+            get {
+                return ResourceManager.GetString("Mind_Perception_Dictionary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
         ///1	Mindfulness
         ///%
         ///Accept*	1

@@ -23,7 +23,7 @@ namespace ContentCoding
 
         public string PluginName { get; } = "Content Coding w/ Dictionary";
         public string PluginType { get; } = "Language Analysis";
-        public string PluginVersion { get; } = "1.1.07";
+        public string PluginVersion { get; } = "1.1.08";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "Codes your tokenized texts for dictionary-defined words and phrases. Comes with several dictionaries built in, plus allows you to load your own LIWC- and RIOT-formatted dictionaries.";
         public bool TopLevel { get; } = false;
@@ -393,6 +393,11 @@ namespace ContentCoding
                                                   "Arenas, E. S. (2018). Exploring Pornography in Widad Benmoussa’s Poetry Using LIWC and Corpus Tools. Sexuality & Culture, 22(4), 1094–1111. https://doi.org/10.1007/s12119-018-9513-7",
                                                   "PLD_",
                                                   Properties.Resources.Encarnacion_S__Arenas___LIWC___Essam_Porn_Dictionary));
+
+            DictionaryList.Add(new DictionaryMetaObject("Mind Perception Dictionary",
+                                                  "Schweitzer, S., & Waytz, A. (2020). Language as a window into mind perception: How mental state language differentiates body and mind, human and nonhuman, and the self from others. Journal of Experimental Psychology: General. Advance online publication. https://doi.org/10.1037/xge0001013",
+                                                  "MPD_",
+                                                  Properties.Resources.Mind_Perception_Dictionary));
 
             DictionaryList.Add(new DictionaryMetaObject("Mindfulness Dictionary",
                                                   "Collins, S. E., Chawla, N., Hsu, S. H., Grow, J., Otto, J. M., & Marlatt, G. A. (2009). Language-based Measures of Mindfulness: Initial Validity and Clinical Utility. Psychology of Addictive Behaviors : Journal of the Society of Psychologists in Addictive Behaviors, 23(4), 743–749. https://doi.org/10.1037/a0017579",
