@@ -48,7 +48,14 @@ namespace ContentCoding
 
 
                     StringBuilder variableNameList = new StringBuilder();
-                    foreach (string varName in Dict.DictData.CatNames) variableNameList.AppendLine('\t' + varName);
+
+                    //because we haven't actually *parsed* the dictionaries yet (so far as we're aware — this isn't always true if we've loaded a pipeline)
+                    //we have to do this to get variable names
+
+                    DictParser DP = new DictParser();
+                    DictionaryMetaObject tempDictionaryForParsing = Dict;
+                    tempDictionaryForParsing.DictData = DP.ParseDict(tempDictionaryForParsing);
+                    foreach (string varName in tempDictionaryForParsing.DictData.CatNames) variableNameList.AppendLine('\t' + varName);
 
                     DictVariableLists.Add(Dict.DictionaryName, variableNameList.ToString());
 
