@@ -1779,6 +1779,63 @@ namespace ContentCoding.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to %
+        ///1	HighControversial
+        ///2	MediumControversial
+        ///3	LowControversial
+        ///%
+        ///60s	3
+        ///70s	3
+        ///abuse	1
+        ///account	2
+        ///addition	3
+        ///address	3
+        ///administration	1
+        ///advantage	2
+        ///afghanistan	1
+        ///afternoon	3
+        ///agreed	3
+        ///aid	1
+        ///america	1
+        ///american	1
+        ///amount	2
+        ///amp	3
+        ///angeles	3
+        ///answer	3
+        ///april	3
+        ///army	1
+        ///attack	1
+        ///attacks	1
+        ///attention	3
+        ///attorney	2
+        ///authorities	1
+        ///authority	1
+        ///avenue	3
+        ///average	3
+        ///ball	3
+        ///ban	1
+        ///banks	1
+        ///base	3
+        ///bay	3
+        ///beach	3
+        ///beginning	3
+        ///benefits	1
+        ///bill	1
+        ///bills	1
+        ///bit	3
+        ///block	3
+        ///blue	3
+        ///border	1
+        ///bowl	3
+        ///box	 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Mejova_et_al_2014_controversial_words {
+            get {
+                return ResourceManager.GetString("Mejova_et_al_2014_controversial_words", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
         ///1	Care_Virtue
         ///2	Care_Vice
         ///3	Fairness_Virtue

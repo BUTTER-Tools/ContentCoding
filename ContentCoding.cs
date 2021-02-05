@@ -23,7 +23,7 @@ namespace ContentCoding
 
         public string PluginName { get; } = "Content Coding w/ Dictionary";
         public string PluginType { get; } = "Language Analysis";
-        public string PluginVersion { get; } = "1.1.08";
+        public string PluginVersion { get; } = "1.2.0";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "Codes your tokenized texts for dictionary-defined words and phrases. Comes with several dictionaries built in, plus allows you to load your own LIWC- and RIOT-formatted dictionaries.";
         public bool TopLevel { get; } = false;
@@ -262,6 +262,11 @@ namespace ContentCoding
                                                   "Ko, W.-J., Durrett, G., & Li, J. J. (2019). Domain Agnostic Real-Valued Specificity Prediction. Proceedings of the AAAI Conference on Artificial Intelligence, 33, 6610–6617. https://doi.org/10.1609/aaai.v33i01.33016610",
                                                   "CD_",
                                                   Properties.Resources.Connectives));
+
+            DictionaryList.Add(new DictionaryMetaObject("Controversial Terms Lexicon",
+                                                  "Mejova, Y., Zhang, A. X., Diakopoulos, N., & Castillo, C. (2014). Controversy and sentiment in online news. ArXiv:1409.8152 [Cs]. http://arxiv.org/abs/1409.8152",
+                                                  "CTL_",
+                                                  Properties.Resources.Mejova_et_al_2014_controversial_words));
 
             DictionaryList.Add(new DictionaryMetaObject("Corporate Social Responsibility Dictionary",
                                                   "Pencle, N., & Mălăescu, I. (2016). What’s in the words? Development and validation of a multidimensional dictionary for CSR and application using prospectuses. Journal of Emerging Technologies in Accounting, 13(2), 109–127. https://doi.org/10.2308/jeta-51615",
