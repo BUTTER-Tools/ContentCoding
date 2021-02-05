@@ -50,7 +50,7 @@ namespace ContentCoding
                     StringBuilder variableNameList = new StringBuilder();
                     foreach (string varName in Dict.DictData.CatNames) variableNameList.AppendLine('\t' + varName);
 
-                    DictDescriptions.Add(Dict.DictionaryName, variableNameList.ToString());
+                    DictVariableLists.Add(Dict.DictionaryName, variableNameList.ToString());
 
 
                 }
