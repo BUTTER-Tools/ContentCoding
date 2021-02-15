@@ -60,6 +60,8 @@ namespace ContentCoding
                     DictVariableLists.Add(Dict.DictionaryName, variableNameList.ToString());
 
 
+
+
                 }
                 catch
                 {
@@ -187,6 +189,11 @@ namespace ContentCoding
                         SelectedDictionariesCheckedListbox.SetItemChecked(SelectedDictionariesCheckedListbox.Items.IndexOf(InputDictData.DictionaryName), true);
                         DictDescriptions.Add(InputDictData.DictionaryName, InputDictData.DictionaryDescription);
                         DictPrefixes.Add(InputDictData.DictionaryName, "");
+
+                        StringBuilder variableNameList = new StringBuilder();
+                        foreach (string varName in InputDictData.DictData.CatNames) variableNameList.AppendLine('\t' + varName);
+
+                        DictVariableLists.Add(InputDictData.DictionaryName, variableNameList.ToString());
 
 
                     }
