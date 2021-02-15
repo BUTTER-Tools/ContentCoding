@@ -54,7 +54,18 @@ namespace ContentCoding
 
                     DictParser DP = new DictParser();
                     DictionaryMetaObject tempDictionaryForParsing = Dict;
-                    tempDictionaryForParsing.DictData = DP.ParseDict(tempDictionaryForParsing);
+
+                    if (Dict.DictData.DictionaryLoaded == false)
+                    {
+                        tempDictionaryForParsing.DictData = DP.ParseDict(tempDictionaryForParsing);
+                    }
+                    else
+                    {
+                        //but we don't want to reload this *every* time either if we've already parsed the dictionaries once
+                        tempDictionaryForParsing.DictData = Dict.DictData;
+                    }
+
+
                     foreach (string varName in tempDictionaryForParsing.DictData.CatNames) variableNameList.AppendLine('\t' + varName);
 
                     DictVariableLists.Add(Dict.DictionaryName, variableNameList.ToString());
