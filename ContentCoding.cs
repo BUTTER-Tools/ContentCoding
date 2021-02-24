@@ -23,7 +23,7 @@ namespace ContentCoding
 
         public string PluginName { get; } = "Content Coding w/ Dictionary";
         public string PluginType { get; } = "Language Analysis";
-        public string PluginVersion { get; } = "1.2.0";
+        public string PluginVersion { get; } = "1.2.1";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "Codes your tokenized texts for dictionary-defined words and phrases. Comes with several dictionaries built in, plus allows you to load your own LIWC- and RIOT-formatted dictionaries.";
         public bool TopLevel { get; } = false;
@@ -522,7 +522,7 @@ namespace ContentCoding
             DictionaryList.Add(new DictionaryMetaObject("Stress Dictionary",
                                                   "Wang, W., Hernandez, I., Newman, D. A., He, J., & Bian, J. (2016). Twitter analysis: Studying US weekly trends in work stress and emotion. Applied Psychology, 65(2), 355–378. https://doi.org/10.1111/apps.12065",
                                                   "Str_",
-                                                  Properties.Resources.Social_Ties_Dictionary));
+                                                  Properties.Resources.Wang_et_al___2016____Stress_Dictionary));
 
             DictionaryList.Add(new DictionaryMetaObject("Value Lexicon",
                                                   "Bardi, A., Calogero, R. M., & Mullen, B. (2008). A new archival approach to the study of values and value--Behavior relations: Validation of the value lexicon. Journal of Applied Psychology, 93(3), 483–497. https://doi.org/10.1037/0021-9010.93.3.483",
