@@ -2829,6 +2829,62 @@ namespace ContentCoding.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to %
+        ///1	PhysSensations
+        ///%
+        ///achy	1
+        ///airy	1
+        ///bloated	1
+        ///boiling	1
+        ///breathless	1
+        ///bruised	1
+        ///burning	1
+        ///bursting	1
+        ///butterflies	1
+        ///buzzy	1
+        ///clammed	1
+        ///clenched	1
+        ///cold	1
+        ///congested	1
+        ///constricted	1
+        ///contracted	1
+        ///dehydrated	1
+        ///disconnected	1
+        ///dizzy	1
+        ///dry-mouthed	1
+        ///electric	1
+        ///energetic	1
+        ///energized	1
+        ///faint	1
+        ///flexible	1
+        ///fluttery	1
+        ///frozen	1
+        ///full	1
+        ///grounded	1
+        ///hard	1
+        ///headachey	1
+        ///heavy	1
+        ///hot	1
+        ///hungry	1
+        ///hurting	1
+        ///icy	1
+        ///itchy	1
+        ///jabbing	1
+        ///jittery	1
+        ///jumpy	1
+        ///knotted	1
+        ///light	1
+        ///lightheaded	1
+        ///limp	1
+        ///lo [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Shaffer_et_al_2021___Physiological_Sensations {
+            get {
+                return ResourceManager.GetString("Shaffer_et_al_2021___Physiological_Sensations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
         ///500	Duty
         ///501	Intellect
         ///502	Adversity

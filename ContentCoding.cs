@@ -23,7 +23,7 @@ namespace ContentCoding
 
         public string PluginName { get; } = "Content Coding w/ Dictionary";
         public string PluginType { get; } = "Language Analysis";
-        public string PluginVersion { get; } = "1.2.1";
+        public string PluginVersion { get; } = "1.2.03";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "Codes your tokenized texts for dictionary-defined words and phrases. Comes with several dictionaries built in, plus allows you to load your own LIWC- and RIOT-formatted dictionaries.";
         public bool TopLevel { get; } = false;
@@ -449,6 +449,11 @@ namespace ContentCoding
                                                   "Ponizovskiy, V., Ardag, M., Grigoryan, L., Boyd, R., Dobewall, H., & Holtz, P. (in press). Development and validation of the Personal Values Dictionary: A theory-driven tool for investigating references to basic human values in text. European Journal of Personality. https://doi.org/10.1002/per.2294",
                                                   "PVD_",
                                                   Properties.Resources.Personal_Values_Dictionary));
+
+            DictionaryList.Add(new DictionaryMetaObject("Physiological Sensation Dictionary",
+                                                  "Shaffer, V. N., Kim, D., & Yoon, K. L. (2021). Physiological sensation word usage in social anxiety disorder with and without comorbid depression. Journal of Behavior Therapy and Experimental Psychiatry, 71, 101638. https://doi.org/10.1016/j.jbtep.2021.101638",
+                                                  "PS_",
+                                                  Properties.Resources.Shaffer_et_al_2021___Physiological_Sensations));
 
             DictionaryList.Add(new DictionaryMetaObject("Privacy Dictionary",
                                                   "Vasalou, A., Gill, A. J., Mazanderani, F., Papoutsi, C., & Joinson, A. (2011). Privacy dictionary: A new resource for the automated content analysis of privacy. Journal of the American Society for Information Science and Technology, 62(11), 2095–2105. https://doi.org/10.1002/asi.21610",
