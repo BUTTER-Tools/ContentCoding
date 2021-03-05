@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="Absolutist_Words" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Dictionaries\Absolutist Words.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+    <value>..\Dictionaries\Absolutist Words.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
   <data name="AgencyCommunionDict" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Dictionaries\AgencyCommunionDict.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
@@ -190,7 +190,7 @@
   <data name="SDTheory_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Dictionaries\SDTheory Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
-  <data name="A__T__Panter___Invectives" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="Panter 2017 - Invectives" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Dictionaries\A._T._Panter - Invectives.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
   <data name="Encarnacion_S__Arenas___LIWC___Essam_Porn_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">

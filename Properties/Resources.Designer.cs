@@ -62,62 +62,6 @@ namespace ContentCoding.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to %
-        ///1	Invectives
-        ///%
-        ///abnormal	1
-        ///abusive	1
-        ///afraid	1
-        ///angry	1
-        ///annoyed	1
-        ///anti-semitic	1
-        ///argumentative	1
-        ///arrogan	1
-        ///arrogant	1
-        ///ass	1
-        ///awful	1
-        ///bad	1
-        ///bitch	1
-        ///bitter	1
-        ///blind	1
-        ///cheat	1
-        ///cock	1
-        ///conceited	1
-        ///corrupt	1
-        ///crabby	1
-        ///critical	1
-        ///cruel	1
-        ///danger	1
-        ///dangerous	1
-        ///demanding	1
-        ///depressed	1
-        ///dick	1
-        ///die	1
-        ///disappointed	1
-        ///disgusting	1
-        ///dishonest	1
-        ///Disrespectful	1
-        ///dumb	1
-        ///evil	1
-        ///fired	1
-        ///frightening	1
-        ///frustrated	1
-        ///fuck	1
-        ///good-for-nothing	1
-        ///greedy	1
-        ///grumpy	1
-        ///gun	1
-        ///hate	1
-        ///homophobic	1
-        ///Horri [rest of string was truncated]&quot;;.
-        /// </summary>
-        internal static string A__T__Panter___Invectives {
-            get {
-                return ResourceManager.GetString("A__T__Panter___Invectives", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to %
         ///1	Absolutist
         ///%
         ///absolutely	1
@@ -2325,6 +2269,62 @@ namespace ContentCoding.Properties {
         internal static string PANASX {
             get {
                 return ResourceManager.GetString("PANASX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
+        ///1	Invectives
+        ///%
+        ///abnormal	1
+        ///abusive	1
+        ///afraid	1
+        ///angry	1
+        ///annoyed	1
+        ///anti-semitic	1
+        ///argumentative	1
+        ///arrogan	1
+        ///arrogant	1
+        ///ass	1
+        ///awful	1
+        ///bad	1
+        ///bitch	1
+        ///bitter	1
+        ///blind	1
+        ///cheat	1
+        ///cock	1
+        ///conceited	1
+        ///corrupt	1
+        ///crabby	1
+        ///critical	1
+        ///cruel	1
+        ///danger	1
+        ///dangerous	1
+        ///demanding	1
+        ///depressed	1
+        ///dick	1
+        ///die	1
+        ///disappointed	1
+        ///disgusting	1
+        ///dishonest	1
+        ///Disrespectful	1
+        ///dumb	1
+        ///evil	1
+        ///fired	1
+        ///frightening	1
+        ///frustrated	1
+        ///fuck	1
+        ///good-for-nothing	1
+        ///greedy	1
+        ///grumpy	1
+        ///gun	1
+        ///hate	1
+        ///homophobic	1
+        ///Horri [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Panter_2017___Invectives {
+            get {
+                return ResourceManager.GetString("Panter 2017 - Invectives", resourceCulture);
             }
         }
         

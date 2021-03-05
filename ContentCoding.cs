@@ -392,7 +392,7 @@ namespace ContentCoding
             DictionaryList.Add(new DictionaryMetaObject("Invective Dictionary",
                                                   "Panter, A. T. (2017). Invective language in course evaluations [Dictionary]. Chapel Hill, NC: The University of North Carolina at Chapel Hill.",
                                                   "InvD_",
-                                                  Properties.Resources.A__T__Panter___Invectives));
+                                                  Properties.Resources.Panter_2017___Invectives));
 
             DictionaryList.Add(new DictionaryMetaObject("Pornographic Language Dictionary",
                                                   "Arenas, E. S. (2018). Exploring Pornography in Widad Benmoussa’s Poetry Using LIWC and Corpus Tools. Sexuality & Culture, 22(4), 1094–1111. https://doi.org/10.1007/s12119-018-9513-7",
