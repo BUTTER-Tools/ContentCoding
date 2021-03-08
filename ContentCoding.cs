@@ -23,7 +23,7 @@ namespace ContentCoding
 
         public string PluginName { get; } = "Content Coding w/ Dictionary";
         public string PluginType { get; } = "Language Analysis";
-        public string PluginVersion { get; } = "1.2.03";
+        public string PluginVersion { get; } = "1.2.05";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "Codes your tokenized texts for dictionary-defined words and phrases. Comes with several dictionaries built in, plus allows you to load your own LIWC- and RIOT-formatted dictionaries.";
         public bool TopLevel { get; } = false;
@@ -225,16 +225,16 @@ namespace ContentCoding
                                                   "AgDj_",
                                                   Properties.Resources.Agitation_Dejection_Dictionary));
 
+            DictionaryList.Add(new DictionaryMetaObject("American Indian Stereotype Dictionary",
+                                                  "Sherman, A., Cupo, L., & Mithlo, N. M. (2020). Perspective-taking increases emotionality and empathy but does not reduce harmful biases against American Indians: Converging evidence from the museum and lab. PLOS ONE, 15(2), e0228784. https://doi.org/10.1371/journal.pone.0228784",
+                                                  "AIS_",
+                                                  Properties.Resources.Sherman_et_al___2020____American_Indian_Stereotype_Dictionary));
+
             DictionaryList.Add(new DictionaryMetaObject("Arguing Lexicon",
                                                   "Somasundaran, S., Ruppenhofer, J., & Wiebe, J. (2007). Detecting Arguing and Sentiment in Meetings. In Proceedings of the 8th SIGdial Workshop on Discourse and Dialogue (pp. 26–34). Antwerp: Association for Computational Linguistics." + Environment.NewLine + Environment.NewLine +
                                                   "Expanded / modified from the original RegEx/Macro version using EXREX (https://github.com/asciimoo/exrex)",
                                                   "ArgLex_",
                                                   Properties.Resources.ArgLex));
-
-            DictionaryList.Add(new DictionaryMetaObject("Analogy/Being Dictionary",
-                                                  "Martindale, C. (1990). The clockwork muse:  The predictability of artistic change. New York, NY, US: Basic Books.",
-                                                  "ABD_",
-                                                  Properties.Resources.Analogy_Being_Dictionary));
 
             DictionaryList.Add(new DictionaryMetaObject("Attention Focus Dictionary",
                                                   "Gregson, A. H. C. (2018). Under what conditions does CEO attention influence corporate social performance? The moderating effect of span of control, executive committee gender diversity and industry dynamism. (Master’s Thesis). Universiteit van Amsterdam, Amsterdam Business School. Retrieved from http://www.scriptiesonline.uba.uva.nl/document/667864",
@@ -341,6 +341,11 @@ namespace ContentCoding
                                                   "Gelfand, M. J., Severance, L., Lee, T., Bruss, C. B., Lun, J., Abdel‐Latif, A., … Ahmed, S. M. (2015). Culture and getting to yes: The linguistic signature of creative agreements in the United States and Egypt. Journal of Organizational Behavior, 36(7), 967–989. https://doi.org/10.1002/job.2026",
                                                   "HD_",
                                                   Properties.Resources.HonorDictionary));
+
+            DictionaryList.Add(new DictionaryMetaObject("Interpersonal Psychological Theory Dictionary",
+                                                  "Cantu, S., & Dykeman, C. (2019). Linguistic and personological features of suicidality in bulimia: A study of memoirs. PsyArXiv. https://doi.org/10.31234/osf.io/c23wn",
+                                                  "IPT_",
+                                                  Properties.Resources.Cantu___Dykeman__2020____IPT_Dictionary));
 
             DictionaryList.Add(new DictionaryMetaObject("NRC Colour Lexicon",
                                                   "Mohammad, S. (2011). Colourful Language: Measuring Word-Colour Associations. Proceedings of the 2nd Workshop on Cognitive Modeling and Computational Linguistics, 97–106. Retrieved from https://www.aclweb.org/anthology/W11-0611" + Environment.NewLine + Environment.NewLine +

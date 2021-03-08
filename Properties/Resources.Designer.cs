@@ -448,6 +448,53 @@ namespace ContentCoding.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to %
+        ///1	ThwartedBelongingness
+        ///2	PerceivedBurdensomeness
+        ///3	AcquiredCapacity
+        ///%
+        ///single*	1
+        ///reject	1
+        ///lone*	1
+        ///abandon*	1
+        ///dump*	1
+        ///neglect*	1
+        ///forgot*	1
+        ///empty	1
+        ///left	1
+        ///distant	1
+        ///homesick	1
+        ///overlook*	1
+        ///hopel*	2
+        ///ashamed	2
+        ///worthl*	2
+        ///doubt	2
+        ///rely	2
+        ///guilty	2
+        ///helpl*	2
+        ///usel*	2
+        ///waste	2
+        ///difficult	2
+        ///attempt*	3
+        ///ideation	3
+        ///pain	3
+        ///cut*	3
+        ///burn*	3
+        ///hunger	3
+        ///scratch*	3
+        ///blood	3
+        ///vomit*	3
+        ///hurt*	3
+        ///faint*	3
+        ///bone	3.
+        /// </summary>
+        internal static string Cantu___Dykeman__2020____IPT_Dictionary {
+            get {
+                return ResourceManager.GetString("Cantu___Dykeman__2020____IPT_Dictionary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
         ///1	Abstraction
         ///%
         ///*ity	1
@@ -2880,6 +2927,57 @@ namespace ContentCoding.Properties {
         internal static string Shaffer_et_al_2021___Physiological_Sensations {
             get {
                 return ResourceManager.GetString("Shaffer_et_al_2021___Physiological_Sensations", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
+        ///1	ConventionalNarrative
+        ///2	ObjectDescription
+        ///3	EyesFace
+        ///4	CulturalCompetence
+        ///5	Empathy
+        ///6	Curiosity
+        ///%
+        ///accessor*	2
+        ///adorn*	2
+        ///alcoholic	1
+        ///ambig*	6
+        ///americanized	1
+        ///anglicized	1
+        ///animal	2
+        ///apparel	2
+        ///appropriat*	4
+        ///ashy	3
+        ///assimil*	4
+        ///atrocit*	4
+        ///attire	2
+        ///authentic	1
+        ///authority	1
+        ///bandana	2
+        ///bang*	2
+        ///battle	1
+        ///bead*	2
+        ///beat	1
+        ///been through a lot	1
+        ///blanket	2
+        ///blazer	2
+        ///bobcut	2
+        ///bone	2
+        ///bracelet*	2
+        ///braid*	2
+        ///bride	1
+        ///brow*	3
+        ///button*	2
+        ///capitalis*	4
+        ///cataract*	3
+        ///ceremon*	1
+        ///challeng*	1
+        ///chapped	3        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Sherman_et_al___2020____American_Indian_Stereotype_Dictionary {
+            get {
+                return ResourceManager.GetString("Sherman_et_al___2020____American_Indian_Stereotype_Dictionary", resourceCulture);
             }
         }
         

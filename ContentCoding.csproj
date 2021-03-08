@@ -80,6 +80,7 @@
     <None Include="Dictionaries\ArgLex.dic" />
     <None Include="Dictionaries\Body Type Dictionary.dic" />
     <None Include="Dictionaries\Brand Personality.dic" />
+    <None Include="Dictionaries\Cantu &amp; Dykeman %282020%29 - IPT Dictionary.dic" />
     <None Include="Dictionaries\Concreteness - Mergenthaler Suffix.dic" />
     <None Include="Dictionaries\Connectives.dic" />
     <None Include="Dictionaries\Corporate Social Responsibility.dic" />
@@ -130,6 +131,7 @@
     <None Include="Dictionaries\Security_Lexicon.dic" />
     <None Include="Dictionaries\Self-Care Dictionary.dic" />
     <None Include="Dictionaries\Shaffer et al 2021 - Physiological Sensations.dic" />
+    <None Include="Dictionaries\Sherman et al. %282020%29 - American Indian Stereotype Dictionary.dic" />
     <None Include="Dictionaries\Situational8.dic" />
     <None Include="Dictionaries\Social_Ties_Dictionary.dic" />
     <None Include="Dictionaries\ValueLexiconBardi.dic" />

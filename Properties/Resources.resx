@@ -319,4 +319,10 @@
   <data name="Shaffer_et_al_2021___Physiological_Sensations" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Dictionaries\Shaffer et al 2021 - Physiological Sensations.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
   </data>
+  <data name="Cantu___Dykeman__2020____IPT_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Cantu &amp; Dykeman (2020) - IPT Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Sherman_et_al___2020____American_Indian_Stereotype_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Sherman et al. (2020) - American Indian Stereotype Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>
