@@ -325,4 +325,13 @@
   <data name="Sherman_et_al___2020____American_Indian_Stereotype_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Dictionaries\Sherman et al. (2020) - American Indian Stereotype Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="Neiman_et_al___2016____Motivated_Social_Cognition" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Neiman et al. (2016) - Motivated Social Cognition.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Neiman_et_al___2016____Parenting_Styles_Model_Dictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Neiman et al. (2016) - Parenting Styles Model Dictionary.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Gaucher_et_al___2011____Gendered_Terms" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Dictionaries\Gaucher et al. (2011) - Gendered Terms.dic;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
 </root>

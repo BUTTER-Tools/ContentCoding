@@ -91,6 +91,7 @@
     <None Include="Dictionaries\Financial Sentiment Dictionary.dic" />
     <None Include="Dictionaries\FinancialSentimentDictionary2018.dic" />
     <None Include="Dictionaries\Forest Value Dictionary.dic" />
+    <None Include="Dictionaries\Gaucher et al. %282011%29 - Gendered Terms.dic" />
     <None Include="Dictionaries\Global Citizen Dictionary.dic" />
     <None Include="Dictionaries\GrantEvalDic.dic" />
     <None Include="Dictionaries\GrievanceDictionary.dic" />
@@ -115,6 +116,8 @@
     <None Include="Dictionaries\Moral Foundations Dictionary %28Fixed Formatting%29.dic" />
     <None Include="Dictionaries\Moral Justification Dictionary.dic" />
     <None Include="Dictionaries\MPQA_Subjectivity_Lexicon.dic" />
+    <None Include="Dictionaries\Neiman et al. %282016%29 - Motivated Social Cognition.dic" />
+    <None Include="Dictionaries\Neiman et al. %282016%29 - Parenting Styles Model Dictionary.dic" />
     <None Include="Dictionaries\NRC_Colour.dic" />
     <None Include="Dictionaries\Opinion_Lexicon.dic" />
     <None Include="Dictionaries\Pain_Dictionary.dic" />

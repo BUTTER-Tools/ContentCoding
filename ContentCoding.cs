@@ -23,7 +23,7 @@ namespace ContentCoding
 
         public string PluginName { get; } = "Content Coding w/ Dictionary";
         public string PluginType { get; } = "Language Analysis";
-        public string PluginVersion { get; } = "1.2.05";
+        public string PluginVersion { get; } = "1.2.07";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "Codes your tokenized texts for dictionary-defined words and phrases. Comes with several dictionaries built in, plus allows you to load your own LIWC- and RIOT-formatted dictionaries.";
         public bool TopLevel { get; } = false;
@@ -296,6 +296,11 @@ namespace ContentCoding
                                                   "FVD_",
                                                   Properties.Resources.Forest_Value_Dictionary));
 
+            DictionaryList.Add(new DictionaryMetaObject("Gendered Terms Dictionary",
+                                                  "Gaucher, D., Friesen, J., & Kay, A. C. (2011). Evidence that gendered wording in job advertisements exists and sustains gender inequality. Journal of Personality and Social Psychology, 101(1), 109–128. https://doi.org/10.1037/a0022530",
+                                                  "GTD_",
+                                                  Properties.Resources.Gaucher_et_al___2011____Gendered_Terms));
+
             DictionaryList.Add(new DictionaryMetaObject("Global Citizen Dictionary",
                                                   "Reysen, S., Pierce, L., Mazambani, G., Mohebpour, I., Puryear, C., Snider, J. S., … Blake, M. E. (2014). Construction and initial validation of a dictionary for global citizen linguistic markers. International Journal of Cyber Behavior, Psychology and Learning, 4(4), 1–15. https://doi.org/10.4018/ijcbpl.2014100101",
                                                   "GCD_",
@@ -358,6 +363,11 @@ namespace ContentCoding
                                                   "Mohammad, S. M., & Turney, P. D. (2013). Crowdsourcing a Word-Emotion Association Lexicon. Computational Intelligence, 29(3), 436–465. https://doi.org/10.1111/j.1467-8640.2012.00460.x",
                                                   "NRC_EmoLex_",
                                                   Properties.Resources.EmoLex092_English));
+
+            DictionaryList.Add(new DictionaryMetaObject("Parenting Styles Model Dictionary",
+                                                  "Neiman, J. L., Gonzalez, F. K., Wilkinson, K., Smith, K. B., & Hibbing, J. R. (2016). Speaking different languages or reading from the same script? Word usage of Democratic and Republican politicians. Political Communication, 33(2), 346–349. https://doi.org/10.1080/10584609.2016.1161349",
+                                                  "PSMD_",
+                                                  Properties.Resources.Neiman_et_al___2016____Parenting_Styles_Model_Dictionary));
 
             DictionaryList.Add(new DictionaryMetaObject("Policy Position Dictionary",
                                                   "Laver, M., Benoit, K., & Garry, J. (2003). Extracting Policy Positions from Political Texts Using Words as Data. American Political Science Review, 97(2), 311–331. https://doi.org/10.1017/S0003055403000698",
@@ -429,6 +439,11 @@ namespace ContentCoding
                                                   "Wheeler, M. A., & Laham, S. M. (2016). What we talk about when we talk about morality: Deontological, consequentialist, and emotive language use in justifications across foundation-specific moral violations. Personality and Social Psychology Bulletin, 42(9), 1206–1216. https://doi.org/10.1177/0146167216653374",
                                                   "MJD_",
                                                   Properties.Resources.Moral_Justification_Dictionary));
+
+            DictionaryList.Add(new DictionaryMetaObject("Motivated Social Cognition Dictionary",
+                                                  "Neiman, J. L., Gonzalez, F. K., Wilkinson, K., Smith, K. B., & Hibbing, J. R. (2016). Speaking different languages or reading from the same script? Word usage of Democratic and Republican politicians. Political Communication, 33(2), 346–349. https://doi.org/10.1080/10584609.2016.1161349",
+                                                  "MSCD_",
+                                                  Properties.Resources.Neiman_et_al___2016____Motivated_Social_Cognition));
 
             DictionaryList.Add(new DictionaryMetaObject("MPQA Subjectivity Lexicon",
                                                   "Wilson, T., Wiebe, J., & Hoffmann, P. (2005). Recognizing Contextual Polarity in Phrase-level Sentiment Analysis. Proceedings of the Conference on Human Language Technology and Empirical Methods in Natural Language Processing, 347–354. https://doi.org/10.3115/1220575.1220619",

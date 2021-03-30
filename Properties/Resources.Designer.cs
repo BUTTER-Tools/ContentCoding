@@ -911,6 +911,59 @@ namespace ContentCoding.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to %
+        ///1	masculine
+        ///2	feminine
+        ///%
+        ///active	1
+        ///adventurous	1
+        ///affectionate	2
+        ///aggress*	1
+        ///ambitio*	1
+        ///analy*	1
+        ///assert*	1
+        ///athlet*	1
+        ///autonom*	1
+        ///boast*	1
+        ///challeng*	1
+        ///cheer*	2
+        ///child*	2
+        ///commit*	2
+        ///communal	2
+        ///compassion*	2
+        ///compet*	1
+        ///confident	1
+        ///connect*	2
+        ///considerate	2
+        ///cooperat*	2
+        ///courag*	1
+        ///decide	1
+        ///decision*	1
+        ///decisive	1
+        ///depend*	2
+        ///determin*	1
+        ///domina*	1
+        ///dominant	1
+        ///emotiona*	2
+        ///empath*	2
+        ///feminine	2
+        ///flatterable	2
+        ///force*	1
+        ///gentle	2
+        ///greedy	1
+        ///headstrong	1
+        ///hierarch*	1
+        ///honest	2
+        ///hostil*	1
+        ///implu [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Gaucher_et_al___2011____Gendered_Terms {
+            get {
+                return ResourceManager.GetString("Gaucher_et_al___2011____Gendered_Terms", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
         ///1	GlobalCitizen
         ///%
         ///accountable	1
@@ -2120,6 +2173,105 @@ namespace ContentCoding.Properties {
         internal static string MPQA_Subjectivity_Lexicon {
             get {
                 return ResourceManager.GetString("MPQA_Subjectivity_Lexicon", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
+        ///1	Threat
+        ///2	UncertaintyAvoidance
+        ///3	ResistanceToChange
+        ///4	EndorsementOfInequality
+        ///%
+        ///advantage	4
+        ///alarm	1
+        ///ambiguity	2
+        ///anarchy	1
+        ///argue	1
+        ///arrange	3
+        ///authority	4
+        ///avoid	1
+        ///beating	1
+        ///bylaw	4
+        ///category	4
+        ///chain of command	4
+        ///chaos	1
+        ///class	4
+        ///classification	4
+        ///classify	4
+        ///cling	3
+        ///closure	1
+        ///command	4
+        ///commotion	3
+        ///confusion	2
+        ///conserve	3
+        ///consistent	3
+        ///constant	3
+        ///continue	3
+        ///damage	1
+        ///danger	1
+        ///deep-seated	3
+        ///defeat	3
+        ///disorder	2
+        ///division	4
+        ///dominance	4
+        ///doubt	2
+        ///dread	1
+        ///egotism	4
+        ///evade	1
+        ///failure	 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Neiman_et_al___2016____Motivated_Social_Cognition {
+            get {
+                return ResourceManager.GetString("Neiman_et_al___2016____Motivated_Social_Cognition", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
+        ///1	RulesAndReinforcement
+        ///2	SelfDiscipline
+        ///3	NuturantCaregiving
+        ///4	EmpathyOpenness
+        ///%
+        ///abide	1
+        ///accept	4
+        ///accountability	2
+        ///admit	2
+        ///adopt	3
+        ///advice	3
+        ///aid	3
+        ///appreciate	4
+        ///assign	1
+        ///assist	3
+        ///authority	1
+        ///be concerned	4
+        ///be in charge of	1
+        ///be in command of	1
+        ///be of assistance	3
+        ///be supportive	3
+        ///bestow	3
+        ///bylaw	1
+        ///care	3
+        ///carry	3
+        ///charge	1
+        ///charitable	3
+        ///cheer up	3
+        ///cherish	3
+        ///coach	3
+        ///comfort	3
+        ///command	1
+        ///compassion	4
+        ///comply	1
+        ///condolences	4
+        ///conscientiousness	2
+        ///consequence	1
+        ///consideration	4
+        ///contr [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string Neiman_et_al___2016____Parenting_Styles_Model_Dictionary {
+            get {
+                return ResourceManager.GetString("Neiman_et_al___2016____Parenting_Styles_Model_Dictionary", resourceCulture);
             }
         }
         
