@@ -405,12 +405,12 @@ namespace ContentCoding.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to %
-        ///Competence	1
-        ///Excitement	2
-        ///Ruggedness	3
-        ///Sincerity	4
-        ///Sophistication	5
-        ///Not_Relevant	6
+        ///1	Competence
+        ///2	Excitement
+        ///3	Ruggedness
+        ///4	Sincerity
+        ///5	Sophistication
+        ///6	Not_Relevant
         ///%
         ///state of the art	2
         ///up to the minute	2
@@ -1370,25 +1370,43 @@ namespace ContentCoding.Properties {
         
         /// <summary>
         ///   Looks up a localized string similar to %
-        ///500	Overall_Honor_Dictionary
-        ///504	Honor_Gain
-        ///540	Honor_Gain_Virtuous_Behavior
-        ///507	Virtuous_Behavior_Moral_Integrity
-        ///509	Virtuous_Behavior_Faith
-        ///532	Virtuous_Behavior_Manners
-        ///505	Honor_Gain_AchieveStatus
-        ///511	AchieveStatus_Achieve
-        ///506	AchieveStatus_Status
-        ///513	Honor_Protection
-        ///515	Honor_Protection_Public_Image
-        ///527	Honor_Protection_Strength/Bravery
-        ///516	Honor_Protection_Prevention
-        ///514	Honor_Protection_Sex
-        ///501	Honor_Loss
-        ///502	Honor_Loss_Wrongdoing
-        ///503	Honor_Loss_Harm
-        ///535	Honor_Loss_Aggression
-        ///5 [rest of string was truncated]&quot;;.
+        ///1	Overall
+        ///2	HonorGain
+        ///3	VirtuousBehaviors
+        ///4	Moral_Integrity
+        ///5	Faith
+        ///6	Manners
+        ///7	Achieve_Status
+        ///8	Achieve
+        ///9	Status
+        ///10	HonorProtection
+        ///11	PublicImage
+        ///12	Strength_Bravery
+        ///13	Prevention
+        ///14	Sex
+        ///15	HonorLoss
+        ///16	Wrongdoing
+        ///17	Harm
+        ///18	Aggression
+        ///19	HonorContexts
+        ///20	Self
+        ///21	Military
+        ///22	Business
+        ///23	Ethnic
+        ///24	Social
+        ///25	Gender
+        ///26	Family
+        ///27	Government
+        ///28	GeneralHonor
+        ///%
+        ///abandon*	1	15	16
+        ///abilities	1	2	7	8
+        ///ability	1	2	7	8
+        ///able	1	2	7	8
+        ///abundan*	1	2	7	9
+        ///abus*	1	15	17
+        ///accept*	1	2	3	6
+        ///acc [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string HonorDictionary {
             get {
@@ -1588,6 +1606,64 @@ namespace ContentCoding.Properties {
         internal static string Lexicoder_Topic_Dictionary {
             get {
                 return ResourceManager.GetString("Lexicoder_Topic_Dictionary", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to %
+        ///1	Cost
+        ///2	Benefit
+        ///%
+        ///aggravat*	1
+        ///aghast	1
+        ///angry	1
+        ///annoy*	1
+        ///appall*	1
+        ///bad*	1
+        ///battle*	1
+        ///betray*	1
+        ///bitter*	1
+        ///break*	1
+        ///broke*	1
+        ///bruise*	1
+        ///burn*	1
+        ///Cheat*	1
+        ///Confus*	1
+        ///Crazy*	1
+        ///cried	1
+        ///cry	1
+        ///curse*	1
+        ///deceive*	1
+        ///degrad*	1
+        ///dejection	1
+        ///depress*	1
+        ///destroy*	1
+        ///devastat*	1
+        ///disease*	1
+        ///Disgust*	1
+        ///Dismay*	1
+        ///distrust	1
+        ///embarrass*	1
+        ///fail*	1
+        ///fight*	1
+        ///foe	1
+        ///frustrat*	1
+        ///fuming	1
+        ///grudge	1
+        ///hard	1
+        ///harm*	1
+        ///hate*	1
+        ///hell*	1
+        ///horrible	1
+        ///horrif*	1
+        ///humiliat*	1
+        ///hurt	1
+        ///Infuriat*	1
+        ///Insecurit*	 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string LIWC_Cost_Benefit_Dictionary {
+            get {
+                return ResourceManager.GetString("LIWC_Cost_Benefit_Dictionary", resourceCulture);
             }
         }
         
@@ -2381,46 +2457,7 @@ namespace ContentCoding.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to %
-        ///1	Total
-        ///2	Sensory
-        ///3	Affect
-        ///4	SensAff
-        ///5	Medical
-        ///%
-        ///abrasion*	1	2	4
-        ///abstrak	1	5
-        ///acetaminophen	1	5
-        ///ache*	1	2	4
-        ///aching*	1	2	4
-        ///advil	1	5
-        ///affliction*	1	3	4
-        ///agoniz*	1	3	4
-        ///agony	1	3	4
-        ///aleve	1	5
-        ///algesia	1	5
-        ///allodynia	1	5
-        ///arthr*	1	5
-        ///asprin	1	5
-        ///atrophy	1	2	4
-        ///beat*	1	3	4
-        ///boo-boo*	1	3	4
-        ///bone	1	5
-        ///bones	1	5
-        ///broke*	1	5
-        ///bruis*	1	2	4
-        ///brutal*	1	3	4
-        ///bulding disc*	1	5
-        ///carpal	1	5
-        ///contusion*	1	5
-        ///codeine	1	5
-        ///corticosteriod*	1	5
-        ///cramp*	1	2	4
-        ///crps	1	5
-        ///damag*	1	5
-        ///decay*	1	5
-        ///demerol	1	5
-        ///disabili [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to ഥㄊ吉瑯污਍ल敓獮牯൹㌊䄉晦捥൴㐊匉湥䅳晦਍व敍楤慣൬┊਍扡慲楳湯पऱलഴ愊獢牴歡ㄉ㔉਍捡瑥浡湩灯敨८ऱവ愊档⩥ㄉ㈉㐉਍捡楨杮पऱलഴ愊癤汩ㄉ㔉਍晡汦捩楴湯पऱळഴ愊潧楮⩺ㄉ㌉㐉਍条湯ॹऱळഴ愊敬敶ㄉ㔉਍污敧楳ॡऱവ愊汬摯湹慩ㄉ㔉਍牡桴⩲ㄉ㔉਍獡牰湩ㄉ㔉਍瑡潲桰ॹऱलഴ戊慥⩴ㄉ㌉㐉਍潢ⵯ潢⩯ㄉ㌉㐉਍潢敮ㄉ㔉਍潢敮ॳऱവ戊潲敫पऱവ戊畲獩पऱलഴ戊畲慴⩬ㄉ㌉㐉਍畢摬湩⁧楤捳पऱവ挊牡慰६ऱവ挊湯畴楳湯पऱവ挊摯楥敮ㄉ㔉਍潣瑲捩獯整楲摯पऱവ挊慲灭पऱलഴ挊灲ॳऱവ搊浡条पऱവ搊捥祡पऱവ搊浥牥汯ㄉ㔉਍楤慳楢楬⩴ㄉ㔉਍楤捳浯潦瑲पऱलഴ搊畲⩧ㄉ㔉਍畤汬पऱलഴ攊楰畤慲⩬ㄉ㔉਍硥散牤湩ㄉ㔉਍硥牣捵慩⩴ㄉ㌉㐉਍硥慨獵⩴ㄉ㌉㐉਍慦湩⩴ㄉ㌉㐉਍敦瑮湡ॹऱവ昊扩潲पऱവ昊慲瑣牵पऱവ昊慲楧⩬ㄉ㌉㐉਍牦穯湥猠潨汵敤⩲ㄉ㔉਍慧桳पऱവ朊畯ॴऱവ朊慮⩷ㄉ㈉㐉਍牧浩पऱळഴ栊慥慤档⩥ㄉ㈉㐉਍敨牡扴牵⩮ㄉ㔉਍敨潭牲慨⩧ㄉ㔉਍敨潭牲潨摩पऱവ栊牥楮瑡摥ㄉ㔉਍畨瑲पऱलഴ栊摹潲潣潤敮ㄉ㔉਍票数慲杬獥慩ㄉ㔉਍扩灵潲敦८ऱവ椊灭楡浲湥⩴ㄉ㈉㐉਍湩汦浡पऱलഴ椊橮捥楴湯पऱവ椊橮牵पऱलഴ椊牲瑩瑡潩८ऱलഴ樊楯瑮ㄉ㔉਍潪湩獴ㄉ㔉਍慬散慲楴湯प [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Pain_Dictionary {
             get {

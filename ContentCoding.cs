@@ -23,7 +23,7 @@ namespace ContentCoding
 
         public string PluginName { get; } = "Content Coding w/ Dictionary";
         public string PluginType { get; } = "Language Analysis";
-        public string PluginVersion { get; } = "1.2.07";
+        public string PluginVersion { get; } = "1.2.08";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "Codes your tokenized texts for dictionary-defined words and phrases. Comes with several dictionaries built in, plus allows you to load your own LIWC- and RIOT-formatted dictionaries.";
         public bool TopLevel { get; } = false;
@@ -272,6 +272,11 @@ namespace ContentCoding
                                                   "Pencle, N., & Mălăescu, I. (2016). What’s in the words? Development and validation of a multidimensional dictionary for CSR and application using prospectuses. Journal of Emerging Technologies in Accounting, 13(2), 109–127. https://doi.org/10.2308/jeta-51615",
                                                   "CSR_",
                                                   Properties.Resources.Corporate_Social_Responsibility));
+
+            DictionaryList.Add(new DictionaryMetaObject("Cost/Benefit Dictionary",
+                                                  "McCullough, M. E., Root, L. M., & Cohen, A. D. (2006). Writing about the benefits of an interpersonal transgression facilitates forgiveness. Journal of Consulting and Clinical Psychology, 74(5), 887–897. https://doi.org/10.1037/0022-006X.74.5.887",
+                                                  "CBD_",
+                                                  Properties.Resources.LIWC_Cost_Benefit_Dictionary));
 
             DictionaryList.Add(new DictionaryMetaObject("Empath Default Dictionary",
                                                   "Fast, E., Chen, B., & Bernstein, M. S. (2016). Empath: Understanding Topic Signals in Large-Scale Text. Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems, 4647–4657. https://doi.org/10.1145/2858036.2858535",
@@ -555,7 +560,7 @@ namespace ContentCoding
                                                   Properties.Resources.ValueLexiconBardi));
 
             DictionaryList.Add(new DictionaryMetaObject("Well-being Dictionary",
-                                                  "Ratner, K., Burrow, A. L., Burd, K. A., & Hill, P. (2017). On the conflation of purpose and meaning in life: A qualitative study of high school and college student conceptions. https://doi.org/10.17605/OSF.IO/X9Q6N",
+                                                  "Ratner, K., Burrow, A. L., Burd, K. A., & Hill, P. L. (2019). On the conflation of purpose and meaning in life: A qualitative study of high school and college student conceptions. Applied Developmental Science, 1–21. https://doi.org/10.1080/10888691.2019.1659140",
                                                   "WBD_",
                                                   Properties.Resources.Well_being_Dictionary));
 

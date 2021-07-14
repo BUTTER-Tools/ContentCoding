@@ -105,6 +105,7 @@
     <None Include="Dictionaries\Laver Garry Dictionary of Policy Position.dic" />
     <None Include="Dictionaries\LCM.dic" />
     <None Include="Dictionaries\Lexicoder Topic Dictionary.dic" />
+    <None Include="Dictionaries\LIWC_Cost_Benefit_Dictionary.dic" />
     <None Include="Dictionaries\LUSI - Action-Inaction Dictionary.dic" />
     <None Include="Dictionaries\LUSI - Disengagement Dictionary - Modified.dic" />
     <None Include="Dictionaries\LUSI - Netspeak Dictionary.dic" />
