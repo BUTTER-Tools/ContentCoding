@@ -23,7 +23,7 @@ namespace ContentCoding
 
         public string PluginName { get; } = "Content Coding w/ Dictionary";
         public string PluginType { get; } = "Language Analysis";
-        public string PluginVersion { get; } = "1.2.08";
+        public string PluginVersion { get; } = "1.2.09";
         public string PluginAuthor { get; } = "Ryan L. Boyd (ryan@ryanboyd.io)";
         public string PluginDescription { get; } = "Codes your tokenized texts for dictionary-defined words and phrases. Comes with several dictionaries built in, plus allows you to load your own LIWC- and RIOT-formatted dictionaries.";
         public bool TopLevel { get; } = false;
